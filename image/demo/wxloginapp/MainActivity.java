@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e(this.getClass().getSimpleName(), StringUtil.branch);
+        Log.e(this.getClass().getSimpleName(), "dev");
         //现在正在修改
     }
 }
